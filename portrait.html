@@ -3,17 +3,40 @@
 <head>
     <title>self portrait</title>
     <style>
-        body { text-align: center; font-family: sans-serif; }
-        h1 { margin-bottom: 20px; }
+        body { 
+            text-align: center; 
+            font-family: sans-serif; 
+            margin: 0; 
+            padding: 20px;
+            background-color: #fff5f9;
+        }
+        /* This ensures your title stays put */
+        .header-section {
+            margin-bottom: 20px;
+            background: white;
+            padding: 10px;
+            border-bottom: 2px solid #ddd;
+        }
+        iframe {
+            display: block;
+            margin: 0 auto;
+            border: none;
+            background: white;
+        }
     </style>
 </head>
 <body>
-    <h1>Ashley's self portrait!</h1>
-    <iframe src="index.html" height="650" width="650" style="border:none;" title="ashley's self portrait"></iframe>
 
-	<hr> <h2>My p5.js Code</h2>
+    <div class="header-section">
+        <h1>Ashley's self portrait!</h1>
+    </div>
+
+    <iframe src="index.html" height="620" width="620" title="ashley's self portrait"></iframe>
+
+    <hr>
+    <h2>My p5.js Code</h2>
     
-    <div style="text-align: left; display: inline-block; width: 80%; background-color: #f4f4f4; padding: 20px; border-radius: 8px;">
+    <div style="text-align: left; display: inline-block; width: 80%; background-color: #2d2d2d; color: white; padding: 20px; border-radius: 8px; overflow-x: auto;">
         <pre><code>function setup() {
   createCanvas(600, 600);
   background(130, 31, 59);
@@ -1474,5 +1497,6 @@ function draw() {
 }
             </code></pre>
     </div>
+
 </body>
 </html>
