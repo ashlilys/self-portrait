@@ -1,11 +1,10 @@
 function setup() {
   createCanvas(600, 600);
-  background(255, 240, 243);
 }
 
 
 function draw() {
-
+  background(255, 240, 243);
   // back hair
   fill(78, 64, 48);
   noStroke();
