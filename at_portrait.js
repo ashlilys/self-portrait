@@ -4,7 +4,7 @@ function setup() {
 
 
 function draw() {
-  background(217, 160, 179);
+  background(158, 76, 103);
   // back hair
   fill(78, 64, 48);
   noStroke();
